@@ -8,12 +8,7 @@ import javax.persistence.Persistence;
 
 public class StudentCreator {
     public static void main(String[] args) {
-    	
-    	
-    	
-    	
-    	
-    	
+        	
         EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("student_pu");
         EntityManager entityManager = entityManagerFactory.createEntityManager();
 
